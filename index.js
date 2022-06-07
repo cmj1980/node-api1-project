@@ -1,7 +1,9 @@
 const server = require('./api/server');
 
-server.listen(9000, ()=>{
-    console.log('server is now running')
-});
+const port = 9000;
+
+server.listen(port, () => {
+    console.log(`server up at port ${port}`)
+})
 
 // START YOUR SERVER HERE
